@@ -1,7 +1,6 @@
 # Casbin Module
 
-> **IMPORTANT NOTICE**: This module is in development and at the moment only supports RBAC with domains 
-strategy
+> **IMPORTANT NOTICE**: This module only works with Monggose or File Adapter at the moment
 >
 
 This modules integrates the [Casbin](https://casbin.org) into a [NestJS Application](https://nestjs.com).
