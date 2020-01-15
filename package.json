@@ -21,7 +21,7 @@
     "test": "jest --runInBand --verbose ./test"
   },
   "dependencies": {
-    "@elastic.io/casbin-mongoose-adapter": "elasticio/casbin-mongoose-adapter#master",
+    "casbin-mongoose-adapter": "^2.0.0",
     "@nestjs/common": "^6.0.0",
     "@nestjs/core": "^6.0.0",
     "rxjs": "^6.3.3"

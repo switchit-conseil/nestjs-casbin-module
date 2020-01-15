@@ -2,7 +2,7 @@ import {Global, Module, DynamicModule, Provider, OnModuleDestroy, Logger, Inject
 import {AdapterOption, CasbinAsyncOptionsInterface, CasbinOptions, CasbinOptionsFactoryInterface} from "./interfaces";
 import {CASBIN_OPTIONS, CASBIN_ADAPTER, CASBIN_ENFORCER} from "./casbin.constants";
 import {Adapter, newEnforcer} from "casbin";
-import * as MongooseAdapter from '@elastic.io/casbin-mongoose-adapter';
+import * as MongooseAdapter from 'casbin-mongoose-adapter';
 import {ModuleRef} from "@nestjs/core";
 
 @Global()
