@@ -1,6 +1,6 @@
 {
   "name": "@switchit/nestjs-casbin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "NestJS Cabin Integration by SWITCH IT CONSULTING",
   "author": "Switch IT - Consulting",
   "license": "MIT",
