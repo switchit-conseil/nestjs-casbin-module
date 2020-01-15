@@ -8,7 +8,7 @@ This modules integrates the [Casbin](https://casbin.org) into a [NestJS Applicat
 ## Installation
 
 ```bash
-npm install --save @switchit/nestjs-cabin # or yarn install @switchit/nestjs-cabin
+npm install --save @switchit/nestjs-casbin # or yarn install @switchit/nestjs-casbin
 ```
 
 ## Usage

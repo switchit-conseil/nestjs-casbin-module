@@ -59,15 +59,15 @@ important information without going back & forth to you with additional question
 Unfortunately, we are not able to investigate / fix bugs without a minimal reproduction, so if we don't hear 
 back from you we are going to close an issue that don't have enough info to be reproduced.
 
-You can file new issues by filling out our [new issue form](https://github.com/switchit-conseil/nestjs-cabin-module/issues/new).
+You can file new issues by filling out our [new issue form](https://github.com/switchit-conseil/nestjs-casbin-module/issues/new).
 
 ### <a name="submit-pr"></a> Submitting a Pull Request (PR)
 
 Before you submit your Pull Request (PR) consider the following guidelines:
 
-1. Search [GitHub](https://github.com/switchit-conseil/nestjs-cabin-module/pulls) for an open or closed PR
+1. Search [GitHub](https://github.com/switchit-conseil/nestjs-casbin-module/pulls) for an open or closed PR
    that relates to your submission. You don't want to duplicate effort.
-1. Fork the switchit-conseil/nestjs-cabin-module repo.
+1. Fork the switchit-conseil/nestjs-casbin-module repo.
 1. Make your changes in a new git branch:
 
    ```shell
@@ -93,7 +93,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
    git push origin my-fix-branch
    ```
 
-1. In GitHub, send a pull request to `nestjs-cabin-module:master`.
+1. In GitHub, send a pull request to `nestjs-casbin-module:master`.
 
 - If we suggest changes then:
 
@@ -241,7 +241,7 @@ The rest of the commit message is then used for this.
 
 <!-- [coc]: https://github.com/angular/code-of-conduct/blob/master/CODE_OF_CONDUCT.md -->
 
-[github]: https://github.com/switchit-conseil/nestjs-cabin-module
+[github]: https://github.com/switchit-conseil/nestjs-casbin-module
 [discord]: https://discordapp.com/invite/G7Qnnhy
 [js-style-guide]: https://google.github.io/styleguide/jsguide.html
 [jsfiddle]: http://jsfiddle.net

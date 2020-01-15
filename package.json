@@ -1,7 +1,7 @@
 {
   "name": "@switchit/nestjs-casbin",
   "version": "0.1.3",
-  "description": "NestJS Cabin Integration by SWITCH IT CONSULTING",
+  "description": "NestJS casbin Integration by SWITCH IT CONSULTING",
   "author": "Switch IT - Consulting",
   "license": "MIT",
   "main": "dist/index.js",
@@ -9,9 +9,9 @@
   "private": false,
   "keywords": ["nestjs", "casbin", "typescript", "web", "framework"],
   "bugs": {
-    "url": "https://github.com/switchit-conseil/nestjs-cabin-module/issues"
+    "url": "https://github.com/switchit-conseil/nestjs-casbin-module/issues"
   },
-  "homepage": "https://github.com/switchit-conseil/nestjs-cabin-module#readme",
+  "homepage": "https://github.com/switchit-conseil/nestjs-casbin-module#readme",
   "contributors": [
     "Nicolas Macherey <nicolas.macherey@gmail.com>"
   ],
