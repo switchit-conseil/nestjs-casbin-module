@@ -1,7 +1,7 @@
 {
   "name": "@switchit/nestjs-casbin",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.0",
+  "description": "NestJS Cabin Integration by SWITCH IT CONSULTING",
   "author": "Switch IT - Consulting",
   "license": "MIT",
   "main": "dist/index.js",
@@ -61,9 +61,6 @@
     "collectCoverageFrom": [
       "src/**/*.ts"
     ],
-    "testEnvironment": "node",
-    "setupFiles": [
-      "dotenv/config"
-    ]
+    "testEnvironment": "node"
   }
 }
