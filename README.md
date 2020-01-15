@@ -18,7 +18,7 @@ Import the CasbinModule into the root AppModule.
 ```typescript
 //app.module.ts
 import { Module } from '@nestjs/common';
-import { CasbinModule } from 'getbiggerio/casbin';
+import { CasbinModule } from '@switchit/nestjs-casbin';
 
 @Module({
     imports: [
@@ -42,7 +42,7 @@ The module can also works with static policy files in CSV format:
 ```typescript
 //app.module.ts
 import { Module } from '@nestjs/common';
-import { CasbinModule } from 'getbiggerio/casbin';
+import { CasbinModule } from '@switchit/nestjs-casbin';
 
 @Module({
     imports: [
@@ -60,7 +60,7 @@ Of course you can use an async configuration:
 ```typescript
 //app.module.ts
 import { Module } from '@nestjs/common';
-import { CasbinModule } from 'getbiggerio/casbin';
+import { CasbinModule } from '@switchit/nestjs-casbin';
 
 @Module({
     imports: [
