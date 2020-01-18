@@ -1,4 +1,4 @@
-# Casbin Module
+# Casbin Module ([![CircleCI](https://circleci.com/gh/switchit-conseil/nestjs-casbin-module.svg?style=svg)](https://circleci.com/gh/switchit-conseil/nestjs-casbin-module))
 
 > **IMPORTANT NOTICE**: This module only works with Monggose or File Adapter at the moment
 >
