@@ -1,0 +1,43 @@
+version: 2
+
+aliases:
+- &restore-cache
+  restore_cache:
+    name: Restore Yarn Package Cache
+    keys:
+    - yarn-packages-{{ checksum "yarn.lock" }}
+- &save-cache
+  save_cache:
+    name: Save Yarn Package Cache
+    key: yarn-packages-{{ checksum "yarn.lock" }}
+    paths:
+    - ~/.cache/yarn
+- &install-deps
+  run:
+    name: Install dependencies
+    command: yarn install --frozen-lockfile
+- &build-dist
+  run:
+    name: Build distribution
+    command: NODE_ENV=production yarn build
+
+run-template: &run-template
+  working_directory: ~/casbin-module
+  docker:
+  - image: circleci/node:12
+
+jobs:
+  build:
+    <<: *run-template
+    steps:
+    - checkout
+    - *restore-cache
+    - *install-deps
+    - *save-cache
+    - *build-dist
+
+workflows:
+  version: 2
+  build:
+    jobs:
+    - build

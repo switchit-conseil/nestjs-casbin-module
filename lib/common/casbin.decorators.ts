@@ -6,4 +6,3 @@ import {CASBIN_ADAPTER, CASBIN_ENFORCER} from "../casbin.constants";
  */
 export const InjectEnforcer = () => Inject(CASBIN_ENFORCER);
 export const InjectAdapter = () => Inject(CASBIN_ADAPTER);
-
